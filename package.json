@@ -1,6 +1,6 @@
 {
   "name": "empty-s3-bucket",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Delete all objects from an S3 bucket.",
   "main": "app.js",
   "scripts": {

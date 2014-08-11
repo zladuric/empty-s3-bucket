@@ -4,9 +4,9 @@ var gulp = require('gulp'),
     stylish = require('jshint-stylish');;
 
 gulp.task('lint', function () {
-    gulp.src(['./**/*.js', './config/**/*.js']).
+    gulp.src(['./app.js', './config/**/*.js']).
         pipe(jshint()).
         pipe(jshint.reporter(stylish));
 });
 
-gulp.task('default', ['lint'];
+gulp.task('default', ['lint']);

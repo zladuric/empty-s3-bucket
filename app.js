@@ -1,16 +1,16 @@
+#!/usr/bin/env node
+
 'use strict';
 var s3 = require('s3'),
-    config = require('./config'),
     bucket,
     objects = [],
     toDelete = [];
 
-
 var client = s3.createClient({
   s3Options: {
-    accessKeyId: process.env.S3_ACCESS_KEY || config.s3.accessKey,
-    secretAccessKey: process.env.S3_SECRET || config.s3.secret,
-    region: process.env.S3_REGION || config.s3.region || 'us-east-1'
+    accessKeyId: process.env.S3_ACCESS_KEY,
+    secretAccessKey: process.env.S3_SECRET,
+    region: process.env.S3_REGION || 'us-east-1'
   },
 });
 

@@ -1,0 +1,31 @@
+{
+  "name": "empty-s3-bucket",
+  "version": "0.1.0",
+  "description": "Delete all objects from an S3 bucket.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zladuric/empty-s3-bucket.git"
+  },
+  "keywords": [
+    "amazon",
+    "aws",
+    "s3",
+    "empty",
+    "delete"
+  ],
+  "author": "Zlatko Đurić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zladuric/empty-s3-bucket/issues"
+  },
+  "homepage": "https://github.com/zladuric/empty-s3-bucket",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "jshint-stylish": "^0.4.0"
+  }
+}
